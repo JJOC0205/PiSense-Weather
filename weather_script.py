@@ -3,9 +3,9 @@ from sense_hat import SenseHat
 import time
 import sys
 from ISStreamer.Streamer import Streamer
-BUCKET_NAME = 'PiWeather'
-BUCKET_KEY = 'JUTWG4L4ELY6'
-ACCESS_KEY = 'ist_PEK-0lH8XL8aAzJnyfEhee3TunlLxBYM'
+BUCKET_NAME = 'Bucket Name Here'
+BUCKET_KEY = 'Bucket Key Here'
+ACCESS_KEY = 'Access Key Here'
 sense = SenseHat()
 logger=Streamer(bucket_name=BUCKET_NAME,bucket_key = BUCKET_KEY,access_key=ACCESS_KEY)
 sense.clear()
